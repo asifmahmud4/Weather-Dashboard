@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="searchText" (input)="onSearchTextChanged()" placeholder="Search city...">
+    
+<select [(ngModel)]="selectedCity" (change)="onCityChanged()">
+    <option *ngFor="let city of cities" [ngValue]="city.name">{{ city.name }}</option>
+  </select>
+  

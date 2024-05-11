@@ -1,0 +1,4 @@
+<app-city-selector (cityChanged)="onCityChanged($event)" (searchTextChange)="onSearchTextChanged($event)"></app-city-selector>
+
+<app-weather-display [selectedCity]="selectedCity" [searchText]="searchText"></app-weather-display>
+

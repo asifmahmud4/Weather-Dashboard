@@ -1,0 +1,6 @@
+[
+    { "name": "New York", "temperature": 22, "weather": "Sunny", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTmRDkdFmItI1ihQoEAXIhNBa_0bRPNpDE0KxE8C_H8QBqjoxDLrwiIXhP8tjoEcCz1qE&usqp=CAU" },
+    { "name": "London", "temperature": 15, "weather": "Cloudy", "image": "https://media.istockphoto.com/id/1390815938/photo/tokyo-city-in-japan.webp?b=1&s=170667a&w=0&k=20&c=YVI8iGWf-w_cLyQNcWA57Ll9eXv_s_SHfoM0MufEMMQ=" },
+    { "name": "Tokyo", "temperature": 27, "weather": "Rainy", "image": "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg" }
+  ]
+  

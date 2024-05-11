@@ -1,0 +1,12 @@
+<div *ngIf="selectedCity || searchText"> <!-- Display only if there is a selected city or search text -->
+    <div *ngFor="let city of cities" [hidden]="!isCityDisplayed(city.name)">
+      <!-- Loop through each city in the cities array -->
+      <h3>{{ city.name }}</h3> <!-- Display the city name -->
+      <div class="city-image">
+        <img [src]="city.image" alt="City Image"> <!-- Display the city image -->
+      </div>
+      <h3>Temperature: {{ city.temperature }} °C</h3> <!-- Display the city temperature -->
+      <p>Weather: {{ city.weather }}</p> <!-- Display the city weather -->
+    </div>
+  </div>
+  

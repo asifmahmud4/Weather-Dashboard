@@ -1,6 +1,12 @@
 [
-    { "name": "New York", "temperature": 22, "weather": "Sunny", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTmRDkdFmItI1ihQoEAXIhNBa_0bRPNpDE0KxE8C_H8QBqjoxDLrwiIXhP8tjoEcCz1qE&usqp=CAU" },
-    { "name": "London", "temperature": 15, "weather": "Cloudy", "image": "https://media.istockphoto.com/id/1390815938/photo/tokyo-city-in-japan.webp?b=1&s=170667a&w=0&k=20&c=YVI8iGWf-w_cLyQNcWA57Ll9eXv_s_SHfoM0MufEMMQ=" },
-    { "name": "Tokyo", "temperature": 27, "weather": "Rainy", "image": "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg" }
-  ]
-  
+  { "name": "New York", "temperature": 22, "weather": "Sunny", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTmRDkdFmItI1ihQoEAXIhNBa_0bRPNpDE0KxE8C_H8QBqjoxDLrwiIXhP8tjoEcCz1qE&usqp=CAU" },
+  { "name": "London", "temperature": 15, "weather": "Cloudy", "image": "https://media.istockphoto.com/id/1390815938/photo/tokyo-city-in-japan.webp?b=1&s=170667a&w=0&k=20&c=YVI8iGWf-w_cLyQNcWA57Ll9eXv_s_SHfoM0MufEMMQ=" },
+  { "name": "Tokyo", "temperature": 27, "weather": "Rainy", "image": "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg" },
+  { "name": "Paris", "temperature": 18, "weather": "Partly Cloudy", "image": "https://media.istockphoto.com/id/522091408?b=1&k=20&m=522091408&s=170667a&w=0&h=_6we5j_jAWe5vzff-YwU2N-DRhlKt7-mhj5N15WeZ_c=" },
+  { "name": "Sydney", "temperature": 25, "weather": "Sunny", "image": "https://media.istockphoto.com/id/1296324029/photo-of-sydney-australia-picture-id1296324029?b=1&k=20&m=1296324029&s=170667a&w=0&h=gE9AdKRL0XU-GBcn97JL8oU4z3t_qmtQ-Q6a36ATq4c=" },
+  { "name": "Rome", "temperature": 20, "weather": "Clear", "image": "https://media.istockphoto.com/id/538093826?b=1&k=20&m=538093826&s=170667a&w=0&h=phq05q8SNgtL4jTlE7DM9s_nbcu1OvTlYME6CCkpHxI=" },
+  { "name": "Dubai", "temperature": 30, "weather": "Sunny", "image": "https://media.istockphoto.com/id/1044921762/photo-of-dubai-city-at-sunset-picture-id1044921762?b=1&k=20&m=1044921762&s=170667a&w=0&h=e_b-OSIeSBBQhO3N_nkVImDx6SVtZ4Rsy-JmWJ6TIIY=" },
+  { "name": "Moscow", "temperature": 17, "weather": "Partly Cloudy", "image": "https://media.istockphoto.com/id/467090797?b=1&k=20&m=467090797&s=170667a&w=0&h=dnsNMs-VZivb5vy_F4h0D22ceMi-GN2NqI2jC4qJgY0=" },
+  { "name": "Beijing", "temperature": 18, "weather": "Partly Cloudy", "image": "https://media.istockphoto.com/id/640081038?b=1&k=20&m=640081038&s=170667a&w=0&h=TRHrgvuyWBONU3Ccs9s9lm7Kl7QmVJGtRHE1cQ3nb34=" },
+  { "name": "Los Angeles", "temperature": 28, "weather": "Sunny", "image": "https://media.istockphoto.com/id/1164111985/photo-of-los-angeles-skyline-at-sunset-picture-id1164111985?b=1&k=20&m=1164111985&s=170667a&w=0&h=_3dRGRx9mm6v9Ngm6egMeeBbZfO9qj3WDfZKdcdG4lk=" }
+]

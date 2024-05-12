@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  selectedCity: string = ''; // Assuming this property holds the selected city
+  selectedCity: string = ''; 
   searchText : string =''
   
 

@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms'; // Import FormsModule if needed
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { WeatherDisplayComponent } from './weather-display/weather-display.component';
@@ -19,7 +20,8 @@ import { CitySelectorComponent } from './city-selector/city-selector.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule // Add FormsModule if needed
+    FormsModule, // Add FormsModule if needed
+    NgbModule,
   ],
   providers: [CityService],
   bootstrap: [AppComponent]

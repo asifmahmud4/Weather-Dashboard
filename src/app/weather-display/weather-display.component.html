@@ -1,11 +1,24 @@
-<div *ngIf="selectedCity || searchText"> <!-- Display only if there is a selected city or search text -->
-  <div *ngFor="let city of cities" [hidden]="!isCityDisplayed(city.name)">
-    <!-- Loop through each city in the cities array -->
-    <h3 class="city-name">{{ city.name }}</h3> <!-- Display the city name -->
+
+<div class="weather-cards" *ngIf="selectedCity || searchText"> 
+  <div *ngFor="let city of cities" class="weather-card" [hidden]="!isCityDisplayed(city.name)">
+
+    <h3 class="city-name">{{ city.name }}</h3> 
     <div class="city-image">
-      <img [src]="getWeatherImage(city.weather)" alt="City Image"> <!-- Display the city image based on weather -->
+      <img [src]="getWeatherImage(city.weather)" alt="City Image"> 
     </div>
-    <h3 class="temperature">Temperature: <span>{{ city.temperature }}</span> °C</h3> <!-- Display the city temperature -->
-    <p class="weather">Weather: <span>{{ city.weather }}</span></p> <!-- Display the city weather -->
+    <div class="weather-details">
+      <p class="temperature">Temperature: <span>{{ city.temperature }}</span> °C</p> 
+      <p class="weather">Weather: <span>{{ city.weather }}</span></p> 
+    </div>
   </div>
+</div>
+<div *ngIf="searchQuery">
+  <div *ngFor="let city of cities">
+  <h2>Weather for {{ city.name }}</h2>
+  <p>Temperature: {{ city.temperature }}</p>
+  <p>Condition: {{ city.condition}}</p>
+</div>
+</div>
+<div *ngIf="!searchQuery">
+  <p>Please select a city to see the weather information.</p>
 </div>

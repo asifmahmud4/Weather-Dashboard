@@ -10,6 +10,7 @@ export class WeatherDisplayComponent implements OnInit {
   @Input() selectedCity: string = '';
   cities: any[] = [];
   @Input() searchText:string='';
+  @Input() searchQuery:string=''
   
   constructor(private cityService: CityService) { }
 
